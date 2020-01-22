@@ -237,3 +237,57 @@ aside h5 {
     font-weight: 700;
     text-decoration: none;
 }
+
+.article-content {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.article-content p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 30px;
+}
+
+.break-image {
+    display: block;
+    margin: auto;
+    width: 85%;
+}
+
+.break-image img {
+    width: 100%;
+}
+
+.break-image h2 {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+.break-image p {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 7px;
+}
+
+.break-image span {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 14px;
+}
+
+.article-content-2 {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
