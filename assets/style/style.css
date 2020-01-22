@@ -244,12 +244,6 @@ aside h5 {
     width: 60%;
 }
 
-.article-content p {
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: #333;
-    line-height: 30px;
-}
 
 .break-image {
     display: block;
@@ -259,23 +253,6 @@ aside h5 {
 
 .break-image img {
     width: 100%;
-}
-
-.break-image h2 {
-    color: rgb(0, 0, 0);
-    display: block;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 2px;
-}
-.break-image p {
-    color: rgb(102, 102, 102);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    margin-right: 7px;
 }
 
 .break-image span {
@@ -291,3 +268,120 @@ aside h5 {
     margin: auto;
     width: 60%;
 }
+
+
+/* global text classes */
+
+.text-section > p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 30px;
+}
+
+.text-section h2 {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+.text-dscrip{
+    color: gray;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text-dscrip span {
+    font-size: 13px;
+    color: rgb(175, 169, 169);
+}
+
+.center-text{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.center-text > img{
+    width: 690px;
+}
+/* end global text classes*/
+
+.video-section{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.article-footer p{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 12px;
+}
+
+.article-footer p a{
+    color: rgb(102, 102, 102);
+    padding-right: 5px;
+}
+
+.article-footer nav a{
+    float: right;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.article-footer nav button{
+    padding: 10px 100px;
+    background-color: rgb(86, 123, 149);
+    color: white;
+    border: 1px solid rgb(50, 104, 145); 
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tag-articles{
+    display: grid;
+    grid: 1fr / 1fr 20%;
+}
+
+.tag-articles > div{
+    display: grid;
+    grid: 1fr 30% / 1fr;
+    margin-right: 50px;
+}
+
+.tag-articles > div > div{
+    display: grid;
+    grid: 56px 1fr/ 1fr;
+    border-top: 1px solid rgb(51, 51, 51);
+    margin-top: 20px;
+}
+
+.tag-articles > div > div > div{
+    display: grid;
+    grid: 1fr / repeat(3, 32%);
+    grid-gap: 20px;
+}
+
+.tag-articles img{
+    width: 100%;
+}
+
+.tag-articles a{
+    text-decoration: none;
+    color: black;
+}
+
+.tag-articles aside a {
+    padding: 15px 0;
+    font-size: 19px;
+    border-top: 1px solid #eee;
+}
+
