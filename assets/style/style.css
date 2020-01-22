@@ -103,7 +103,7 @@ main {
 
 .center-content {
     display: block;
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -167,10 +167,7 @@ h1 {
 
 .side-section{
     display: inline-block;
-}
-
-.side-section > div{
-    width: 60%;
+    width: 100%;
 }
 
 .side-section p{
@@ -180,19 +177,63 @@ h1 {
     line-height: 30px;
 }
 .side-section > div{
-    width: 60%;
+    width: 80%;
+    float: left;
+    margin-right: 10px;
+}
+
+.side-section > div > div {
+    width: 75%;
+    margin: auto 0 auto auto;
+    display: block;
 }
 
 .side-section aside{
-    float: right;
-    width: 20%;
+    float: left;
+    width: 18%;
 }
 .side-section aside div{
     display: inline-block;
     margin-bottom: 20px;
 }
 .side-section aside img{
-    width: 50%;
+    width: 40%;
     float: left;
     padding: 0 10px;
+}
+
+.side-section aside a {
+    color: black;
+    text-decoration: none;
+}
+
+aside h5 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.intermediate-link {
+    display: block;
+    margin: 35px auto;
+    width: 30%;  
+    line-height: 19px;
+    text-align: center;
+    border-bottom: 1px solid rgb(51, 51, 51); 
+    border-top: 1px solid rgb(51, 51, 51);
+    
+}
+
+.intermediate-link p {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.intermediate-link a {
+    color:rgb(50, 104, 145);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
 }
