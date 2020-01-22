@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -43,7 +43,7 @@ table {
   border-spacing: 0;
 }
 
-header {
+.sticky-header {
     position: fixed;
     height: 35px;
     padding: 10px;
@@ -53,7 +53,7 @@ header {
     display: inline-block;
 }
 
-header div{
+.sticky-header div{
     float: left;
 }
 
@@ -92,9 +92,43 @@ header div{
     text-align: center;
 }
 
-header div img{
+.sticky-header div img{
     width: 300px;
     height: 40px;
 }
 
+main {
+    clear: both;
+    background-color: white;
+}
+
+.center-content {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.image-section {
+    padding: 50px;  
+}
+
+h1 {
+  margin: 20px 100px;
+  font-style: italic;
+}
+
+.image-section img {
+    width: 100%;
+}
+
+.image-section p {
+    color: gray;
+    width: 75%;
+    margin-top: 10px;
+}
+
+.image-section span {
+    font-size: 13px;
+    color: rgb(175, 169, 169);
+}
 
