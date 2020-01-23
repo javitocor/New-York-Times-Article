@@ -39,6 +39,7 @@ aside h5 {
 
 body {
   line-height: 1;
+  font-family: 'Playfair Display', serif;
 }
 
 footer {
@@ -79,11 +80,62 @@ main {
   width: 60%;
 }
 
+.intermediate-link a {
+  color: rgb(50, 104, 145);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-left a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tag-articles a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-brand a {
+  text-decoration: none;
+  padding-right: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.footer-header a {
+  float: right;
+  padding-top: 15px;
+  color: rgb(86, 123, 149);
+  text-decoration: none;
+  font-size: 11px;
+}
+
 .article-footer nav a {
   float: right;
   padding: 0 10px;
   text-decoration: none;
   color: black;
+}
+
+.floating-bar button {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding-right: 170px;
+}
+
+.nav-right button {
+  padding: 10px;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  font-weight: bold;
 }
 
 .article-footer nav button {
@@ -125,11 +177,32 @@ main {
 }
 
 .break-image span {
-    font-size: 14px;
-    color: rgb(51, 51, 51);
-    font-weight: 500;
-    line-height: 18px;
-    margin-bottom: 14px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 14px;
+}
+
+.floating-bar span {
+  float: right;
+  margin-right: 170px;
+}
+
+.image-section span {
+  font-size: 13px;
+  color: rgb(175, 169, 169);
+}
+
+.text-image span {
+  font-weight: 700;
+  margin-right: 10px;
+  color: black;
+}
+
+.text-dscrip span {
+  font-size: 13px;
+  color: rgb(175, 169, 169);
 }
 
 .article-header nav span {
@@ -185,21 +258,8 @@ main {
   border-top: 1px solid black;
 }
 
-.floating-bar button {
-  float: right;
-  background: none;
-  border: none;
-  font-size: 16px;
-  padding-right: 170px;
-}
-
 .floating-bar button i {
   margin-left: 50px;
-}
-
-.floating-bar span {
-  float: right;
-  margin-right: 170px;
 }
 
 .footer-brand {
@@ -209,22 +269,8 @@ main {
   margin-bottom: 80px;
 }
 
-.footer-brand a {
-  text-decoration: none;
-  padding-right: 15px;
-  color: rgb(102, 102, 102);
-}
-
 .footer-header {
   border-top: 1px solid rgb(51, 51, 51);
-}
-
-.footer-header a {
-  float: right;
-  padding-top: 15px;
-  color: rgb(86, 123, 149);
-  text-decoration: none;
-  font-size: 11px;
 }
 
 .footer-header img {
@@ -255,6 +301,17 @@ main {
 
 .footer-menu ul li {
   padding: 5px 0;
+}
+
+.tag-articles > div {
+  display: grid;
+  grid: 1fr 30% / 1fr;
+  margin-right: 50px;
+}
+
+.side-section aside a {
+  color: black;
+  text-decoration: none;
 }
 
 .footer-menu ul li a {
@@ -290,11 +347,6 @@ main {
   margin-top: 10px;
 }
 
-.image-section span {
-  font-size: 13px;
-  color: rgb(175, 169, 169);
-}
-
 .intermediate-link {
   display: block;
   margin: 35px auto;
@@ -303,13 +355,6 @@ main {
   text-align: center;
   border-bottom: 1px solid rgb(51, 51, 51);
   border-top: 1px solid rgb(51, 51, 51);
-}
-
-.intermediate-link a {
-  color: rgb(50, 104, 145);
-  font-size: 15px;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .intermediate-link p {
@@ -324,27 +369,10 @@ main {
   padding-top: 5px;
 }
 
-.nav-left a {
-  padding: 10px;
-  color: black;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 .nav-right {
   width: 20%;
   text-align: right;
   padding-bottom: 25px;
-}
-
-.nav-right button {
-  padding: 10px;
-  background-color: rgb(86, 123, 149);
-  color: white;
-  border: 1px solid rgb(50, 104, 145);
-  border-radius: 3px;
-  font-weight: bold;
 }
 
 .side-section {
@@ -357,14 +385,23 @@ main {
   width: 18%;
 }
 
-.side-section aside a {
-  color: black;
-  text-decoration: none;
+.side-section > div {
+  width: 80%;
+  float: left;
+  margin-right: 10px;
+}
+
+.sticky-header div {
+  float: left;
 }
 
 .side-section aside div {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.tag-articles img {
+  width: 100%;
 }
 
 .side-section aside img {
@@ -378,12 +415,6 @@ main {
   margin-bottom: 15px;
   color: #333;
   line-height: 30px;
-}
-
-.side-section > div {
-  width: 80%;
-  float: left;
-  margin-right: 10px;
 }
 
 .side-section > div > div {
@@ -404,10 +435,6 @@ main {
   background-color: white;
   width: 100%;
   display: inline-block;
-}
-
-.sticky-header div {
-  float: left;
 }
 
 .sticky-header div img {
@@ -435,11 +462,6 @@ main {
   grid: 1fr / 1fr 25%;
 }
 
-.tag-articles a {
-  text-decoration: none;
-  color: black;
-}
-
 .tag-articles aside {
   border-top: 1px solid rgb(51, 51, 51);
   margin-top: 20px;
@@ -454,12 +476,6 @@ main {
   color: rgb(18, 18, 18);
 }
 
-.tag-articles > div {
-  display: grid;
-  grid: 1fr 30% / 1fr;
-  margin-right: 50px;
-}
-
 .tag-articles > div > div {
   display: grid;
   grid: 56px 1fr/ 1fr;
@@ -467,10 +483,21 @@ main {
   margin-top: 20px;
 }
 
+.text-image p {
+  color: black;
+}
+
 .tag-articles > div > div > div {
   display: grid;
   grid: 1fr / repeat(3, 32%);
   grid-gap: 20px;
+}
+
+.text-section > p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 30px;
 }
 
 .tag-articles > div > div > div p {
@@ -490,10 +517,6 @@ main {
   text-align: left;
 }
 
-.tag-articles img {
-  width: 100%;
-}
-
 .text-box1 {
   top: 3180px;
 }
@@ -511,26 +534,11 @@ main {
   left: 200px;
 }
 
-.text-image p {
-  color: black;
-}
-
-.text-image span {
-  font-weight: 700;
-  margin-right: 10px;
-  color: black;
-}
-
 .text-dscrip {
   color: gray;
   width: 75%;
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-.text-dscrip span {
-  font-size: 13px;
-  color: rgb(175, 169, 169);
 }
 
 .text-section h2 {
@@ -541,13 +549,6 @@ main {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 2px;
-}
-
-.text-section > p {
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: #333;
-  line-height: 30px;
 }
 
 .video-section {
