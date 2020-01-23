@@ -62,11 +62,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 Javier Oriol Correas Sanchez Cuesta
 
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/javitocor)
+- Twitter: [@twitterhandle](https://twitter.com/JavierCorreas4)
+- Linkedin: [linkedin](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
 
 ## 🤝 Contributing
 
