@@ -1,4 +1,4 @@
-# Project Name
+# POSITIONING AND FLOATING ELEMENTS
 
 > New York Times article page clone.
 
