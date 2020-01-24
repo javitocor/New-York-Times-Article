@@ -2,7 +2,7 @@
 
 > New York Times article page clone.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 A clone of New York Times article page.
 
