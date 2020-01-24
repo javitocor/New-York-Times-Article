@@ -1,8 +1,8 @@
-# Project Name
+# POSITIONING AND FLOATING ELEMENTS
 
 > New York Times article page clone.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 A clone of New York Times article page.
 
@@ -13,7 +13,7 @@ A clone of New York Times article page.
 
 ## Live Demo
 
-[Live Demo Link](https://patriciachrysy.github.io/New-York-Times-Article/)
+[Live Demo Link](https://raw.githack.com/patriciachrysy/New-York-Times-Article/feature/index.html)
 
 
 ## Getting Started
@@ -62,11 +62,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 Javier Oriol Correas Sanchez Cuesta
 
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/javitocor)
+- Twitter: [@twitterhandle](https://twitter.com/JavierCorreas4)
+- Linkedin: [linkedin](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
 
 ## 🤝 Contributing
 
