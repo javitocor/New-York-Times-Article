@@ -13,7 +13,7 @@ A clone of New York Times article page.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/patriciachrysy/New-York-Times-Article/feature/index.html)
+[Live Demo Link](https://patriciachrysy.github.io/New-York-Times-Article/)
 
 
 ## Getting Started
